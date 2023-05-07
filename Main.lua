@@ -36,9 +36,9 @@ while true do
 
   if state == 0 then
 
-    invoke(gpu, "setBackground", 0x00FF6D)
+    invoke(gpu, "setBackground", 0x000000)
 
-    invoke(gpu, "setForeground", 0x00FF6D)
+    invoke(gpu, "setForeground", 0x000000)
 
     state = 1
 
